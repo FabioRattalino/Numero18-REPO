@@ -6,7 +6,7 @@ using TMPro;
 public class Monete_raccolta : MonoBehaviour
 {
     int monete = 0;
-    
+    public TextMeshProUGUI contaMoneteText;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,9 +15,13 @@ public class Monete_raccolta : MonoBehaviour
 
        monete++;
        collision.gameObject.SetActive(false);
-       print("Ho raccolto una moneta e ne ho " + monete);
-
+       AggiornaConteggioMonete();
+       }
 
        }
+   
+      void AggiornaConteggioMonete(){
+        contaMoneteText.SetText("Monete: " + monete);
+      }
    }
-}
+
