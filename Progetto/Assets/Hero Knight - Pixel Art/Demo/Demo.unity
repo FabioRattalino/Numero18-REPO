@@ -786,6 +786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320205971}
   - component: {fileID: 320205970}
+  - component: {fileID: 320205972}
   m_Layer: 0
   m_Name: Basic front coin (7)
   m_TagString: Untagged
@@ -860,6 +861,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &320205972
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320205969}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &333690797
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 333690799}
   - component: {fileID: 333690798}
+  - component: {fileID: 333690800}
   m_Layer: 0
   m_Name: Basic front coin (3)
   m_TagString: Untagged
@@ -944,6 +962,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &333690800
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333690797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &363794982
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363794984}
   - component: {fileID: 363794983}
+  - component: {fileID: 363794985}
   m_Layer: 0
   m_Name: Chest Coins
   m_TagString: Untagged
@@ -1028,6 +1063,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &363794985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363794982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &403624531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,6 +1157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 407314329}
   - component: {fileID: 407314328}
+  - component: {fileID: 407314330}
   m_Layer: 0
   m_Name: Basic front coin (11)
   m_TagString: Untagged
@@ -1170,6 +1232,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &407314330
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407314327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &443987695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480835703}
   - component: {fileID: 480835702}
+  - component: {fileID: 480835704}
   m_Layer: 0
   m_Name: Basic front coin (9)
   m_TagString: Untagged
@@ -1370,6 +1449,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &480835704
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480835701}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!114 &483078008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1930,6 +2025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795770799}
   - component: {fileID: 795770798}
+  - component: {fileID: 795770800}
   m_Layer: 0
   m_Name: Basic front coin (4)
   m_TagString: Untagged
@@ -2004,6 +2100,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &795770800
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795770797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &820169168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,6 +2126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820169170}
   - component: {fileID: 820169169}
+  - component: {fileID: 820169171}
   m_Layer: 0
   m_Name: Basic front coin (6)
   m_TagString: Untagged
@@ -2088,6 +2201,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &820169171
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820169168}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &847116474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,6 +2334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856616642}
   - component: {fileID: 856616641}
+  - component: {fileID: 856616643}
   m_Layer: 0
   m_Name: Basic front coin (8)
   m_TagString: Untagged
@@ -2279,6 +2409,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &856616643
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856616640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!213 &898222032
 Sprite:
   m_ObjectHideFlags: 0
@@ -2499,6 +2645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904482890}
   - component: {fileID: 904482889}
+  - component: {fileID: 904482891}
   m_Layer: 0
   m_Name: Basic front coin (2)
   m_TagString: Untagged
@@ -2573,6 +2720,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &904482891
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904482888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &923134176
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,6 +4577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231069106}
   - component: {fileID: 1231069105}
+  - component: {fileID: 1231069107}
   m_Layer: 0
   m_Name: Basic front coin (1)
   m_TagString: Untagged
@@ -4488,6 +4652,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1231069107
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231069104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &1234721879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4819,6 +4999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359473007}
   - component: {fileID: 1359473006}
+  - component: {fileID: 1359473008}
   m_Layer: 0
   m_Name: Basic front coin (13)
   m_TagString: Untagged
@@ -4893,6 +5074,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1359473008
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359473005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &1384924520
 GameObject:
   m_ObjectHideFlags: 0
@@ -27015,6 +27212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675700441}
   - component: {fileID: 1675700440}
+  - component: {fileID: 1675700442}
   m_Layer: 0
   m_Name: Basic front coin (14)
   m_TagString: Untagged
@@ -27089,6 +27287,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1675700442
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675700439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &1778711204
 GameObject:
   m_ObjectHideFlags: 0
@@ -28683,6 +28897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800594667}
   - component: {fileID: 1800594666}
+  - component: {fileID: 1800594668}
   m_Layer: 0
   m_Name: Basic front coin (5)
   m_TagString: Untagged
@@ -28757,6 +28972,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1800594668
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800594665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &1810341623
 GameObject:
   m_ObjectHideFlags: 0
@@ -28767,6 +28998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810341625}
   - component: {fileID: 1810341624}
+  - component: {fileID: 1810341626}
   m_Layer: 0
   m_Name: Basic front coin
   m_TagString: Untagged
@@ -28841,6 +29073,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1810341626
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810341623}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!1 &1818782764
 GameObject:
   m_ObjectHideFlags: 0
@@ -28851,6 +29099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818782766}
   - component: {fileID: 1818782765}
+  - component: {fileID: 1818782767}
   m_Layer: 0
   m_Name: Basic front coin (12)
   m_TagString: Untagged
@@ -28925,6 +29174,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1818782767
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818782764}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!4 &1820875894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
@@ -28940,6 +29205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832070405}
   - component: {fileID: 1832070404}
+  - component: {fileID: 1832070406}
   m_Layer: 0
   m_Name: Chest Coins (1)
   m_TagString: Untagged
@@ -29014,6 +29280,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1832070406
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832070403}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1913273304
 GameObject:
   m_ObjectHideFlags: 0
@@ -29024,6 +29316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913273306}
   - component: {fileID: 1913273305}
+  - component: {fileID: 1913273307}
   m_Layer: 0
   m_Name: Basic front coin (10)
   m_TagString: Untagged
@@ -29098,6 +29391,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1913273307
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913273304}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.445
 --- !u!850595691 &1992913661
 LightingSettings:
   m_ObjectHideFlags: 0
