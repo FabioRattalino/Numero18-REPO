@@ -21,7 +21,7 @@ public class Monete_raccolta : MonoBehaviour
        }
    
       void AggiornaConteggioMonete(){
-        contaMoneteText.SetText("Monete: " + monete);
+        contaMoneteText.SetText("Monete raccolte: " + monete);
       }
    }
 
